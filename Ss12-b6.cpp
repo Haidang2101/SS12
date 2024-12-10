@@ -17,14 +17,14 @@ int main() {
     printf("Nhap so thu hai: ");
     scanf("%d", &b);
     if (kiemTraSoHoanHao(a)) {
-        printf("%d la so hoan hao\n", a);
+        printf("%d (True)la so hoan hao\n", a);
     } else {
-        printf("%d khong phai la so hoan hao\n", a);
+        printf("%d (False)khong phai la so hoan hao\n", a);
     }
     if (kiemTraSoHoanHao(b)) {
-        printf("%d la so hoan hao\n", b);
+        printf("%d (True)la so hoan hao\n", b);
     } else {
-        printf("%d khong phai la so hoan hao\n", b);
+        printf("%d (False )khong phai la so hoan hao\n", b);
     }
 
     return 0;
