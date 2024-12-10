@@ -2,13 +2,13 @@
 
 int kiemTraSoHoanHao(int n) {
     if (n <= 1) return 0; 
-    int tong = 0;
+    int sum = 0;
     for (int i = 1; i <= n / 2; i++) {
         if (n % i == 0) {
-            tong += i;
+            sum += i;
         }
     }
-    return tong == n; 
+    return sum == n; 
 }
 int main() {
     int a, b;
