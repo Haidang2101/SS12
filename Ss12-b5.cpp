@@ -17,15 +17,15 @@ int main() {
     scanf("%d", &b);
 
     if (kiemTraSoNguyenTo(a) == 1) {
-        printf("%d la so nguyen to\n", a);
+        printf("%d la so nguyen to(True)\n", a);
     } else {
-        printf("%d khong phai la so nguyen to\n", a);
+        printf("%d khong phai la so nguyen to(False)\n", a);
     }
 
     if (kiemTraSoNguyenTo(b) == 1) {
-        printf("%d la so nguyen to\n", b);
+        printf("%d la so nguyen to(True)\n", b);
     } else {
-        printf("%d khong phai la so nguyen to\n", b);
+        printf("%d khong phai la so nguyen to(False)\n", b);
     }
 
     return 0;
